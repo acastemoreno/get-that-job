@@ -7,7 +7,7 @@ Get that job is a Sinatra application.
 Sinatra is a library to create web applications with Ruby. We'll learn
 more about it during the next module.
 
-What you need to know now is tat, sinatra is configured to convert any `.erb` 
+What you need to know now is tat, sinatra is configured to convert any `.erb`
 file that you add to the `views` folder into page of the application
 
 ### ERB
