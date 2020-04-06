@@ -11,6 +11,9 @@
   </head>
   <body>
     <!-- This will be on all pages -->
-    <%= erb :navbar %> <%= yield %>
+    <%= erb :navbar %>
+    <main>
+      <%= yield %>
+    </main>
   </body>
 </html>
