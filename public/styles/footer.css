@@ -1,0 +1,59 @@
+footer .navigation {
+  display: flex;
+  align-items: flex-start;
+  padding: 21px 20px 29px 20px;
+  width: 100%;
+  max-width: 1024px;
+  justify-content: space-between;
+  margin: 0 auto;
+
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+}
+
+footer .navigation div {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .navigation div p.caption {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+footer .navigation div a {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #7a7a7a;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+footer .navigation div a:last-child {
+  margin-bottom: 0px;
+}
+
+footer .navigation div a:hover {
+  color: #ad00ff;
+}
+
+footer .trademark p {
+  text-align: center;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #73738d;
+  border-top: 1px solid rgba(193, 187, 187, 0.77);
+  padding: 9px 0px;
+}

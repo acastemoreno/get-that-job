@@ -1,0 +1,72 @@
+header {
+  display: flex;
+  align-items: center;
+  padding: 34px 20px;
+  width: 100%;
+  max-width: 1024px;
+  justify-content: space-between;
+  margin: 0 auto;
+
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+}
+
+header > a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+header > a img {
+  width: fit-content;
+  height: fit-content;
+}
+
+header > a p {
+  font-weight: bold;
+  font-size: 24px;
+
+  color: #000000;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav a {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration: none;
+
+  color: #000000;
+  margin-left: 20px;
+}
+
+header nav a:first-child {
+  margin-left: 0px;
+}
+
+header nav a.sign-in,
+header nav a.create_account {
+  font-weight: 800;
+  font-size: 13px;
+
+  text-transform: uppercase;
+
+  padding: 3px 10px;
+
+  border-radius: 4px;
+}
+
+header nav a.sign-in {
+  border: 2px solid #000000;
+  color: #000000;
+  margin-left: 40px;
+}
+
+header nav a.create_account {
+  border: 2px solid #3c2dff;
+  color: #3c2dff;
+}
