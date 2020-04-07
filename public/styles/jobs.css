@@ -1,0 +1,139 @@
+.job_list {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0px auto;
+  padding: 64px 20px;
+
+  font-family: Nunito;
+  font-style: normal;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.job_list h1 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #000000;
+  text-align: left;
+}
+
+.job_list .filters {
+}
+
+.job_list .announces {
+  list-style: none;
+}
+
+.job_list .announces li {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+}
+
+.job_list .announces li:last-child {
+  margin-bottom: 0px;
+}
+
+.job_list .announces li .left {
+  display: grid;
+  grid-template-columns: repeat(2, fit-content);
+  grid-template-rows: repeat(2, fit-content);
+  grid-template-areas:
+    "logo position"
+    "logo location";
+  gap: 4px 15px;
+}
+
+.job_list .announces li .left img {
+  grid-area: logo;
+  align-self: center;
+}
+
+.job_list .announces li .left .position {
+  grid-area: position;
+  display: flex;
+  align-items: center;
+}
+
+.job_list .announces li .left .position p.caption {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #4a5568;
+}
+
+.job_list .announces li .left .position p.new {
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 14px;
+
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 0px 5px;
+  background: #ff0d0d;
+  margin-left: 7px;
+}
+
+.job_list .announces li .left .location {
+  grid-area: location;
+  display: flex;
+  align-items: center;
+}
+
+.job_list .announces li .left .location p {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #000000;
+  margin-right: 9px;
+}
+
+.job_list .announces li .right {
+  display: flex;
+  align-items: center;
+}
+
+.job_list .announces li .right .technology {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #ffffff;
+  padding: 2px 5px;
+  background: rgba(60, 45, 255, 0.69);
+  margin-left: 12px;
+}
+
+.job_list .announces li .date_publish {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  margin-left: 20px;
+
+  color: #718096;
+}
+
+.job_list > a {
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  background: #3c2dff;
+  border: 2px solid #3c2dff;
+  border-radius: 4px;
+  padding: 10px 20px;
+  width: fit-content;
+  align-self: center;
+  margin-top: 20px;
+}
