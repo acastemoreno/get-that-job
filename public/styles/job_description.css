@@ -102,5 +102,25 @@
 
 .job_description .position .right {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+}
+
+.job_description .position .right .technology {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #ffffff;
+  padding: 2px 5px;
+  background: rgba(60, 45, 255, 0.69);
+  margin-left: 12px;
+}
+
+.job_description .position .right .date_publish {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  margin-left: 20px;
+
+  color: #718096;
 }
