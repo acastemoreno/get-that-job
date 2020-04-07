@@ -11,8 +11,9 @@
 .hero {
   display: flex;
   align-items: center;
-  max-width: 70%;
+  max-width: 1024px;
   margin: auto;
+  padding: 0px 20px;
 }
 
 .hero-text {
