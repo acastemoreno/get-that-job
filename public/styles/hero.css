@@ -31,23 +31,19 @@
   font-size: 20px;
   line-height: 27px;
   color: #000000;
-  margin-bottom: 3.5%;
+  margin-bottom: 7%;
 }
 
 .hero-button {
-  width: 45%;
   background: #3c2dff;
   border: 2px solid #3c2dff;
   box-sizing: border-box;
   border-radius: 4px;
-  text-align: center;
-  vertical-align: center;
-}
 
-.hero-button-text {
   font-weight: 800;
   font-size: 13px;
   line-height: 18px;
+  padding: 0.6em 1.2em;
   color: #ffffff;
   text-decoration: none;
 }
