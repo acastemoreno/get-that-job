@@ -1,0 +1,85 @@
+.contact {
+  background: #f7fafc;
+  padding: 100px 0;
+  font-family: "Overpass", sans-serif;
+}
+
+.contact .container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  min-width: 1021px;
+}
+
+.contact .contact-form {
+  min-width: 495px;
+}
+
+.contact-form input {
+  margin-bottom: 23px;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 322px;
+}
+
+.contact .caption {
+  color: #999999;
+  font-size: 13px;
+  padding-bottom: 8px;
+}
+
+.contact .sub-caption {
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 64px;
+  padding-bottom: 11px;
+}
+
+.contact .contact-email p {
+  padding-bottom: 16px;
+  font-weight: 300;
+}
+.contact button,
+.contact textarea,
+.contact input {
+  display: block;
+  width: 100%;
+}
+
+.contact .form-button {
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  background: #000000;
+  border: none;
+  border-radius: 6px;
+  padding: 19px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  max-width: 197px;
+  justify-content: space-between;
+}
+
+.contact .form-email {
+  border: 1px solid #c9ccd4;
+  border-radius: 6px;
+  padding: 13px;
+}
+
+.contact .form-name {
+  border: 1px solid #c9ccd4;
+  border-radius: 6px;
+  padding: 13px;
+}
+
+.contact .form-textarea {
+  padding: 13px;
+  border: 1px solid #c9ccd4;
+  border-radius: 6px;
+  resize: none;
+}
