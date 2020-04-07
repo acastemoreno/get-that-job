@@ -1,5 +1,7 @@
 .contact {
-  margin: 100px 0;
+  background: #f7fafc;
+  padding: 100px 0;
+  font-family: "Overpass", sans-serif;
 }
 
 .contact .container {
@@ -41,9 +43,9 @@
   padding-bottom: 16px;
   font-weight: 300;
 }
-.contact .button,
-.contact .textarea,
-.contact .input {
+.contact button,
+.contact textarea,
+.contact input {
   display: block;
   width: 100%;
 }
