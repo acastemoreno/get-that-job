@@ -14,8 +14,6 @@
     "description position3";
   gap: 20px 70px;
   padding: 54px 20px;
-  font-family: "Nunito", sans-serif;
-  font-style: normal;
 }
 
 .job_description .find_job {
@@ -70,12 +68,12 @@
   gap: 4px 15px;
 }
 
-.job_description .position .left img {
+.job_description .left img {
   grid-area: logo;
   align-self: center;
 }
 
-.job_description .position .left p.caption {
+.job_description .left p.caption {
   grid-area: caption;
   font-weight: 600;
   font-size: 20px;
@@ -84,28 +82,27 @@
   color: #4a5568;
 }
 
-.job_description .position .left .location {
+.job_description .location {
   grid-area: location;
   display: flex;
   align-items: center;
 }
 
-.job_description .position .left .location p {
+.job_description .location p {
   font-weight: bold;
   font-size: 14px;
   line-height: 19px;
-  /* identical to box height */
 
   color: #000000;
   margin-right: 9px;
 }
 
-.job_description .position .right {
+.job_description .right {
   display: flex;
   align-items: center;
 }
 
-.job_description .position .right .technology {
+.job_description .right .technology {
   font-weight: bold;
   font-size: 12px;
   line-height: 16px;
@@ -116,7 +113,7 @@
   margin-left: 12px;
 }
 
-.job_description .position .right .date_publish {
+.job_description .right .date_publish {
   font-weight: normal;
   font-size: 14px;
   line-height: 19px;

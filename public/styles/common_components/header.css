@@ -6,35 +6,32 @@ header {
   max-width: 1024px;
   justify-content: space-between;
   margin: 0 auto;
-
-  font-family: "Nunito", sans-serif;
-  font-style: normal;
 }
 
-header > a {
+header .home {
   text-decoration: none;
   display: flex;
   align-items: center;
 }
 
-header > a img {
+header .home img {
   width: fit-content;
   height: fit-content;
 }
 
-header > a p {
+header .home p {
   font-weight: bold;
   font-size: 24px;
 
   color: #000000;
 }
 
-header nav {
+header .navigation {
   display: flex;
   align-items: center;
 }
 
-header nav a {
+header .navigation a {
   font-weight: bold;
   font-size: 16px;
   line-height: 22px;
@@ -44,12 +41,12 @@ header nav a {
   margin-left: 20px;
 }
 
-header nav a:first-child {
+header .navigation a:first-child {
   margin-left: 0px;
 }
 
-header nav a.sign-in,
-header nav a.create_account {
+header .sign-in,
+header .create_account {
   font-weight: 800;
   font-size: 13px;
 
@@ -60,13 +57,13 @@ header nav a.create_account {
   border-radius: 4px;
 }
 
-header nav a.sign-in {
+header .sign-in {
   border: 2px solid #000000;
   color: #000000;
   margin-left: 40px;
 }
 
-header nav a.create_account {
+header .create_account {
   border: 2px solid #3c2dff;
   color: #3c2dff;
 }
