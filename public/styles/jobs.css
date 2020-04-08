@@ -1,8 +1,7 @@
 .job_list {
-  width: 100%;
-  max-width: 1024px;
   margin: 0px auto;
-  padding: 64px 20px;
+  padding-top: 64px;
+  padding-bottom: 64px;
   text-align: center;
   display: flex;
   flex-direction: column;
