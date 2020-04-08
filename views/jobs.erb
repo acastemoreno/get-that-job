@@ -20,7 +20,7 @@
             <li><p>Full-Time</p></li>
             <li><p>Part-Time</p></li>
             <li><p>Contract</p></li>
-            <li><p>For Fre</p></li>
+            <li><p>For Free</p></li>
           </ul>
         </div>
       </li>
@@ -62,23 +62,25 @@
   <ul class="announces">
     <% (1..8).each do |item| %>
     <li>
-      <div class="left">
-        <img src="assets/A_logo.png" alt="A logo" />
-        <div class="position">
-          <p class="caption">Software Engineer</p>
-          <p class="new uppercase">new</p>
+      <a href="job_detail">
+        <div class="left">
+          <img src="assets/A_logo.png" alt="A logo" />
+          <div class="position">
+            <p class="caption">Software Engineer</p>
+            <p class="new uppercase">new</p>
+          </div>
+          <div class="location">
+            <p>Able - Lima</p>
+            <img src="assets/peru_flag.png" alt="peru flag" />
+          </div>
         </div>
-        <div class="location">
-          <p>Able - Lima</p>
-          <img src="assets/peru_flag.png" alt="peru flag" />
+        <div class="right">
+          <img src="assets/dolar.svg" alt="dolar" />
+          <p class="technology">ReactJS</p>
+          <p class="technology">ReactJS</p>
+          <p class="date_publish">Today</p>
         </div>
-      </div>
-      <div class="right">
-        <img src="assets/dolar.svg" alt="dolar" />
-        <p class="technology">ReactJS</p>
-        <p class="technology">ReactJS</p>
-        <p class="date_publish">Today</p>
-      </div>
+      </a>
     </li>
     <% end %>
   </ul>
