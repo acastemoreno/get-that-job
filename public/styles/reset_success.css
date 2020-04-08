@@ -1,0 +1,13 @@
+.reset-success-title {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #262626;
+  margin-bottom: 19px;
+}
+
+.reset-success-paragraph {
+  font-size: 16px;
+  line-height: 24px;
+  color: #262626;
+}
