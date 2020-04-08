@@ -7,6 +7,7 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <!-- Third-party links -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,600,600i,700&display=swap" rel="stylesheet">
     <link
       href="https://fonts.googleapis.com/css?family=Overpass:300,300i,400&display=swap"
@@ -14,13 +15,17 @@
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/header.css" />
-    <link rel="stylesheet" href="styles/hero.css" />
-    <link rel="stylesheet" href="styles/testimonial.css" />
-    <link rel="stylesheet" href="styles/job_description.css" />
-    <link rel="stylesheet" href="styles/touch.css" />
-    <link rel="stylesheet" href="styles/footer.css" />
+    <!-- Common links -->
+    <link rel="stylesheet" href="styles/common_components/reset.css" />
+    <link rel="stylesheet" href="styles/common_components/header.css" />
+    <link rel="stylesheet" href="styles/common_components/footer.css" />
+
+    <!-- Page links -->
+    <link rel="stylesheet" href="styles/index_components/hero.css" />
+    <link rel="stylesheet" href="styles/index_components/testimonial.css" />
+    <link rel="stylesheet" href="styles/index_components/job_description.css" />
+    <link rel="stylesheet" href="styles/index_components/touch.css" />
+    
     <link rel="stylesheet" href="styles/jobs.css" />
     <link rel="stylesheet" href="styles/job_detail.css" />
     <link rel="stylesheet" href="styles/login_page.css" />
@@ -29,17 +34,13 @@
     <link rel="stylesheet" href="styles/forgot_password.css">
     <link rel="stylesheet" href="styles/reset_success.css">
     <link rel="stylesheet" href="styles/faqs.css">
-
-
-
-
   </head>
   <body>
     <!-- This will be on all pages -->
-    <%= erb :header %>
+    <%= erb :'common_components/header' %>
     <main>
       <%= yield %>
     </main>
-    <%= erb :footer %>
+    <%= erb :'common_components/footer' %>
   </body>
 </html>
