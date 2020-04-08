@@ -1,8 +1,6 @@
 .job-detail {
-  font-family: "Nunito", sans-serif;
   display: flex;
   justify-content: space-between;
-  max-width: 1020px;
   margin: auto;
   padding-top: 64px;
   padding-bottom: 238px;
