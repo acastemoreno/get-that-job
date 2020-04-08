@@ -4,6 +4,7 @@
   margin: auto;
   padding-top: 64px;
   padding-bottom: 238px;
+  flex-wrap: wrap;
 }
 
 .job-detail .description {
