@@ -4,6 +4,17 @@
   padding: 0px;
 }
 
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  display: grid;
+  align-content: stretch;
+  grid-template-columns: 100%;
+  grid-template-rows: min-content minmax(min-content, 1fr) min-content;
+}
+
 main {
   background: #f7fafc;
 }
