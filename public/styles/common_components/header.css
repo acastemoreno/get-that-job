@@ -5,6 +5,11 @@ header {
   padding-bottom: 34px;
   justify-content: space-between;
   margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+header .nav-toggle {
+  display: none;
 }
 
 header .home {
@@ -65,4 +70,54 @@ header .sign-in {
 header .create_account {
   border: 2px solid #3c2dff;
   color: #3c2dff;
+}
+
+@media screen and (max-width: 729px) {
+  header .nav-toggle {
+    display: block;
+  }
+
+  header .nav-toggle:hover + .navigation {
+    display: flex;
+  }
+
+  header .navigation {
+    width: calc(100% + 40px);
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    display: none;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  header .navigation a {
+    min-width: 100px;
+    border: none;
+    padding: 0px;
+    text-align: right;
+    text-transform: none;
+  }
+
+  header .navigation a:hover {
+    color: #3c2dff;
+  }
+
+  header .navigation:hover {
+    display: flex;
+  }
+
+  header .navigation:after {
+    position: absolute;
+    width: 100%;
+    content: "";
+    top: -7px;
+    height: 7px;
+  }
+
+  header .navigation a:first-child {
+    margin-left: 20px;
+  }
 }
