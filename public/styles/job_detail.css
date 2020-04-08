@@ -1,0 +1,136 @@
+.job-detail {
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1020px;
+  margin: auto;
+  padding-top: 64px;
+  padding-bottom: 238px;
+}
+
+.job-detail .description {
+  max-width: 650px;
+}
+
+.job-detail .job-logo {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  min-width: 250px;
+  max-height: 385px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.job-detail .job-share {
+  display: flex;
+  justify-content: space-between;
+}
+
+.job-detail .job-button {
+  background: #3c2dff;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px 52px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 32px;
+}
+
+.button-lenguage {
+  background: #3c2dff;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 1px 8px;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.job-detail h1 {
+  font-weight: bold;
+  margin-bottom: 9px;
+  line-height: 44px;
+}
+
+.job-detail .job-lenguage {
+  margin-top: 9px;
+  margin-bottom: 24px;
+}
+
+.job-detail p {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  font-weight: 300;
+  line-height: 24px;
+}
+.job-detail h2 {
+  margin-top: 24px;
+  margin-bottom: 12px;
+  line-height: 24px;
+}
+
+.job-detail ul {
+  margin-top: 12px;
+  margin-bottom: 21px;
+  list-style-position: inside;
+  line-height: 24px;
+}
+
+.job-detail li {
+  margin-bottom: 4px;
+  font-weight: 300;
+}
+.job-detail .posted {
+  margin-top: 27px;
+  margin-bottom: 0;
+}
+
+.job-social {
+  display: flex;
+  min-width: 194px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-detail .job-more {
+  text-decoration: none;
+}
+
+.job-detail .job-logo-able {
+  margin-top: 40px;
+  margin-bottom: 6px;
+  width: 20%;
+}
+
+.job-detail .job-direction {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.job-detail .job-website {
+  color: #000000;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.job-detail .job-posted {
+  margin-top: 4px;
+  margin-bottom: 41px;
+}
+
+.job-detail .job-title-able {
+  margin-top: 6px;
+  margin-bottom: 12px;
+}
+
+.job-detail .job-view {
+  text-decoration: none;
+  color: #000000;
+}
