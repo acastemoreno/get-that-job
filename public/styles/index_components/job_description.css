@@ -121,3 +121,14 @@
 
   color: #718096;
 }
+
+@media screen and (max-width: 729px) {
+  .job_description .right img,
+  .job_description .right .technology {
+    display: none;
+  }
+
+  .job_description .right .date_publish {
+    margin-left: 0px;
+  }
+}
