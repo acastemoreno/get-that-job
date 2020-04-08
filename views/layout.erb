@@ -36,10 +36,10 @@
   </head>
   <body>
     <!-- This will be on all pages -->
-    <%= erb :header %>
+    <%= erb :'common_components/header' %>
     <main>
       <%= yield %>
     </main>
-    <%= erb :footer %>
+    <%= erb :'common_components/footer' %>
   </body>
 </html>
