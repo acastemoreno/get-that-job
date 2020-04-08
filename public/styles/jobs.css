@@ -1,11 +1,7 @@
 .job_list {
-  width: 100%;
-  max-width: 1024px;
   margin: 0px auto;
-  padding: 64px 20px;
-
-  font-family: Nunito;
-  font-style: normal;
+  padding-top: 64px;
+  padding-bottom: 64px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -96,11 +92,11 @@
   margin-left: 6px;
 }
 
-.job_list .filter_sort .dropdown {
+.job_list .dropdown {
   position: relative;
 }
 
-.job_list .filter_sort .dropdown div {
+.job_list .dropdown div {
   position: absolute;
   top: 44px;
   left: 0px;
@@ -112,7 +108,7 @@
   min-width: 100%;
 }
 
-.job_list .filter_sort .dropdown div:before {
+.job_list .dropdown div:before {
   position: absolute;
   content: "";
   width: 100%;
@@ -121,7 +117,7 @@
   height: 5px;
 }
 
-.job_list .filter_sort .dropdown ul {
+.job_list .dropdown ul {
   list-style: none;
   text-align: left;
   font-weight: normal;
@@ -130,21 +126,21 @@
   white-space: nowrap;
 }
 
-.job_list .filter_sort .dropdown:hover div {
+.job_list .dropdown:hover div {
   display: block;
   opacity: 1;
 }
 
-.job_list .filter_sort .dropdown ul li {
+.job_list .dropdown li {
   padding: 5px 12px;
 }
 
-.job_list .filter_sort .dropdown ul li:hover {
+.job_list .dropdown li:hover {
   color: #ffffff;
   background-color: #3c2dff;
 }
 
-.job_list .filter_sort .dropdown.sort div {
+.job_list .dropdown.sort div {
   top: 28px;
 }
 
@@ -176,18 +172,18 @@
   gap: 4px 15px;
 }
 
-.job_list .announces li .left img {
+.job_list .left img {
   grid-area: logo;
   align-self: center;
 }
 
-.job_list .announces li .left .position {
+.job_list .left .position {
   grid-area: position;
   display: flex;
   align-items: center;
 }
 
-.job_list .announces li .left .position p.caption {
+.job_list .left .position p.caption {
   font-weight: 600;
   font-size: 20px;
   line-height: 27px;
@@ -195,25 +191,24 @@
   color: #4a5568;
 }
 
-.job_list .announces li .left .position p.new {
+.job_list .left .position p.new {
   font-weight: bold;
   font-size: 10px;
   line-height: 14px;
 
   color: #ffffff;
-  text-transform: uppercase;
   padding: 0px 5px;
   background: #ff0d0d;
   margin-left: 7px;
 }
 
-.job_list .announces li .left .location {
+.job_list .left .location {
   grid-area: location;
   display: flex;
   align-items: center;
 }
 
-.job_list .announces li .left .location p {
+.job_list .left .location p {
   font-weight: bold;
   font-size: 14px;
   line-height: 19px;
@@ -223,12 +218,12 @@
   margin-right: 9px;
 }
 
-.job_list .announces li .right {
+.job_list .right {
   display: flex;
   align-items: center;
 }
 
-.job_list .announces li .right .technology {
+.job_list .right .technology {
   font-weight: bold;
   font-size: 12px;
   line-height: 16px;
@@ -239,7 +234,7 @@
   margin-left: 12px;
 }
 
-.job_list .announces li .date_publish {
+.job_list .date_publish {
   font-weight: normal;
   font-size: 14px;
   line-height: 19px;
@@ -248,11 +243,10 @@
   color: #718096;
 }
 
-.job_list > a {
+.job_list .load {
   font-weight: 800;
   font-size: 13px;
   line-height: 18px;
-  text-transform: uppercase;
   color: #ffffff;
   text-decoration: none;
   background: #3c2dff;

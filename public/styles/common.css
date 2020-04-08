@@ -1,0 +1,26 @@
+@import "common_components/reset.css";
+@import "common_components/header.css";
+@import "common_components/footer.css";
+
+.nunito-font {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.overpass-font {
+  font-family: "Overpass", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.align_sections {
+  width: 100%;
+  max-width: 1024px;
+  padding-left: 20px;
+  padding-right: 20px;
+}

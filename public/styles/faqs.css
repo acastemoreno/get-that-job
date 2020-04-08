@@ -1,0 +1,26 @@
+.faqs {
+  padding-top: 75px;
+  padding-bottom: 108px;
+  margin: auto;
+}
+
+.faqs h1 {
+  font-weight: bold;
+  line-height: 44px;
+  font-size: 32px;
+}
+
+.faqs p {
+  max-width: 856px;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.faqs h2 {
+  font-weight: 600;
+  line-height: 32px;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}

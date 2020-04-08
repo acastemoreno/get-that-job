@@ -1,14 +1,10 @@
 footer .navigation {
   display: flex;
   align-items: flex-start;
-  padding: 21px 20px 29px 20px;
-  width: 100%;
-  max-width: 1024px;
+  padding-top: 21px;
+  padding-bottom: 29px;
   justify-content: space-between;
   margin: 0 auto;
-
-  font-family: "Nunito", sans-serif;
-  font-style: normal;
 }
 
 footer .navigation div {

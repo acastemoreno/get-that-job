@@ -8,9 +8,9 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  max-width: 1024px;
   margin: 0px auto;
-  padding: 0px 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .contact .contact-form {
