@@ -1,0 +1,79 @@
+.reg-form {
+  margin-top: 64px;
+  margin-left: 208px;
+}
+
+.reg-form-box {
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+.reg-form-box-text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.reg-form-subtext {
+  font-size: 14px;
+  line-height: 22px;
+  color: #8c8c8c;
+  margin: 0px 2px;
+  float: right;
+  margin-bottom: 12px;
+}
+
+.reg-form .login-form-input-box {
+  margin-bottom: 2px;
+}
+
+.big-input-box {
+  height: 127px;
+}
+
+.big-input-box::-webkit-input-placeholder {
+  position: relative;
+  top: -42px;
+}
+
+.reg-form-pref-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.reg-form-pref-box input {
+  margin-right: 4px;
+}
+
+.reg-form-pref-box label {
+  margin-bottom: 0;
+  margin-right: 12px;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  white-space: pre-line;
+}
+
+.reg-form-terms-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+.reg-form-terms-box label {
+  margin-bottom: 0;
+}
+
+.reg-form-button {
+  background: #ffffff;
+  border: 1px solid #3c2dff;
+  width: 143px;
+  height: 40px;
+
+  font-size: 16px;
+  line-height: 24px;
+  color: #3c2dff;
+
+  text-align: center;
+}
