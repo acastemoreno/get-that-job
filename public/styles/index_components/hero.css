@@ -43,3 +43,18 @@
 .hero-img {
   width: 50%;
 }
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  .hero-img {
+    order: -1;
+    width: 100%;
+  }
+  .hero-text {
+    width: 100%;
+    text-align: center;
+  }
+}
